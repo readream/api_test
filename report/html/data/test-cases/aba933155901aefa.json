@@ -1,0 +1,64 @@
+{
+  "uid" : "aba933155901aefa",
+  "name" : "login_4登录成功",
+  "fullName" : "testcase.testLogin.TestLogin#test_login",
+  "historyId" : "fc5710783c16c3a97ef0f7d185fcbc42",
+  "time" : {
+    "start" : 1598456511083,
+    "stop" : 1598456512203,
+    "duration" : 1120
+  },
+  "description" : "<font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>user_id': 1, 'username': 'python'<Br/><font color='red'>实际结果: </font><Response [200]>",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>user_id': 1, 'username': 'python'<Br/><font color='red'>实际结果: </font>&lt;Response [200]&gt;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "接口测试"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "testLogin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "MS-QFLKDEPNXSGU"
+  }, {
+    "name" : "thread",
+    "value" : "1180-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.testLogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例ID': 'login_4', '模块': '登录', '接口名称': '登录成功', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"12345678\"}', '预期结果': \"user_id': 1, 'username': 'python'\", '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '', 'cookies': '', 'status_code': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aba933155901aefa.json",
+  "parameterValues" : [ "{'用例ID': 'login_4', '模块': '登录', '接口名称': '登录成功', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"12345678\"}', '预期结果': \"user_id': 1, 'username': 'python'\", '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '', 'cookies': '', 'status_code': '200', '数据库验证': ''}" ]
+}

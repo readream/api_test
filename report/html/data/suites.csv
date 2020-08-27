@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","testcase.testLogin.TestLogin#test_login","192","<font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>无效数据。期待为字典类型<Br/><font color='red'>实际结果: </font><Response [400]>"
+"passed","testcase.testLogin.TestLogin#test_login","871","<font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>无法使用提供的认证信息登录<Br/><font color='red'>实际结果: </font><Response [400]>"
+"passed","testcase.testLogin.TestLogin#test_login","135","<font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>password': ['该字段不能为空。']<Br/><font color='red'>实际结果: </font><Response [400]>"
+"passed","testcase.testLogin.TestLogin#test_login","556","<font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>user_id': 1, 'username': 'python'<Br/><font color='red'>实际结果: </font><Response [200]>"
+"passed","testcase.testLogin.TestLogin#test_login","120","<font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>username': ['该字段不能为空。']<Br/><font color='red'>实际结果: </font><Response [400]>"
