@@ -1,50 +1,50 @@
 [ {
-  "uid" : "87efa7bbb45dc848",
+  "uid" : "d4c359a1188ae6b",
   "name" : "login_4登录成功",
   "time" : {
-    "start" : 1598540226122,
-    "stop" : 1598540226678,
-    "duration" : 556
+    "start" : 1598541244416,
+    "stop" : 1598541245315,
+    "duration" : 899
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "90b917b4166077e2",
-  "name" : "login_3登录名或密码为空",
-  "time" : {
-    "start" : 1598540225983,
-    "stop" : 1598540226118,
-    "duration" : 135
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "94aeb55f84b0b7f6",
-  "name" : "login_2登录名为空",
-  "time" : {
-    "start" : 1598540225848,
-    "stop" : 1598540225968,
-    "duration" : 120
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "25d654211553fee0",
+  "uid" : "b2505bd0d71cfe97",
   "name" : "login_5登录用户名或密码错误",
   "time" : {
-    "start" : 1598540226688,
-    "stop" : 1598540227559,
-    "duration" : 871
+    "start" : 1598541245323,
+    "stop" : 1598541245800,
+    "duration" : 477
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "69818a0fabeec7e7",
+  "uid" : "267ee3cc401a05c6",
   "name" : "login_1登录参数为空",
   "time" : {
-    "start" : 1598540225646,
-    "stop" : 1598540225838,
-    "duration" : 192
+    "start" : 1598541243915,
+    "stop" : 1598541244116,
+    "duration" : 201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d3cbf59d1451e0a",
+  "name" : "login_3登录名或密码为空",
+  "time" : {
+    "start" : 1598541244285,
+    "stop" : 1598541244401,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dc0f3b9dc9bcfc8",
+  "name" : "login_2登录名为空",
+  "time" : {
+    "start" : 1598541244131,
+    "stop" : 1598541244269,
+    "duration" : 138
   },
   "status" : "passed",
   "severity" : "normal"
