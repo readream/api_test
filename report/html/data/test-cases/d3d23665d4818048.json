@@ -1,0 +1,155 @@
+{
+  "uid" : "d3d23665d4818048",
+  "name" : "login_4登录成功",
+  "fullName" : "testcase.testLogin.TestLogin#test_login",
+  "historyId" : "fc5710783c16c3a97ef0f7d185fcbc42",
+  "time" : {
+    "start" : 1598866843459,
+    "stop" : 1598866844766,
+    "duration" : 1307
+  },
+  "description" : "<font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>post<Br/><font color='red'>期望结果: </font>user_id': 1, 'username': 'python'<Br/><font color='red'>实际结果: </font>{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5ODk1MzIwOH0.xxe56R28P4mgY2KoCsYn8N4TBHS12zDi-fzvqKt7AQ0\",\"user_id\":1,\"username\":\"python\"}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>post<Br/><font color='red'>期望结果: </font>user_id': 1, 'username': 'python'<Br/><font color='red'>实际结果: </font>{&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5ODk1MzIwOH0.xxe56R28P4mgY2KoCsYn8N4TBHS12zDi-fzvqKt7AQ0&quot;,&quot;user_id&quot;:1,&quot;username&quot;:&quot;python&quot;}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "接口测试"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "testLogin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "INNOVAT0084"
+  }, {
+    "name" : "thread",
+    "value" : "9748-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.testLogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例ID': 'login_4', '模块': '登录', '接口名称': '登录成功', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"12345678\"}', '预期结果': \"user_id': 1, 'username': 'python'\", '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '{}', 'cookies': '', 'status_code': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "91d209a0ece94230",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598865274736,
+        "stop" : 1598865276260,
+        "duration" : 1524
+      }
+    }, {
+      "uid" : "80a90a53a1612629",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598541244416,
+        "stop" : 1598541245315,
+        "duration" : 899
+      }
+    }, {
+      "uid" : "da021007f1af4242",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598541217148,
+        "stop" : 1598541218114,
+        "duration" : 966
+      }
+    }, {
+      "uid" : "6a0e70972a3e50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598540226122,
+        "stop" : 1598540226678,
+        "duration" : 556
+      }
+    }, {
+      "uid" : "ce167e3b695aaab4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598458991987,
+        "stop" : 1598458992841,
+        "duration" : 854
+      }
+    }, {
+      "uid" : "3490c4102d9b93ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598458557921,
+        "stop" : 1598458558772,
+        "duration" : 851
+      }
+    }, {
+      "uid" : "1fca6e58bb3f5bed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598458412144,
+        "stop" : 1598458413180,
+        "duration" : 1036
+      }
+    }, {
+      "uid" : "47be66d0eda924a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598458350146,
+        "stop" : 1598458351003,
+        "duration" : 857
+      }
+    }, {
+      "uid" : "1bc7245fa29ce3cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598458299816,
+        "stop" : 1598458300973,
+        "duration" : 1157
+      }
+    }, {
+      "uid" : "7987815e13e85ae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598456862050,
+        "stop" : 1598456862914,
+        "duration" : 864
+      }
+    }, {
+      "uid" : "15b9fd56faa9103f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598456511083,
+        "stop" : 1598456512203,
+        "duration" : 1120
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3d23665d4818048.json",
+  "parameterValues" : [ "{'用例ID': 'login_4', '模块': '登录', '接口名称': '登录成功', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"12345678\"}', '预期结果': \"user_id': 1, 'username': 'python'\", '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '{}', 'cookies': '', 'status_code': '200', '数据库验证': ''}" ]
+}
