@@ -9,64 +9,82 @@
         "name" : "TestLogin",
         "children" : [ {
           "name" : "login_1登录参数为空",
-          "uid" : "267ee3cc401a05c6",
+          "uid" : "8b332a673fc9cea8",
           "parentUid" : "e17b7a456cfa9e4cdb7a431513025e56",
           "status" : "passed",
           "time" : {
-            "start" : 1598541243915,
-            "stop" : 1598541244116,
-            "duration" : 201
+            "start" : 1598865272184,
+            "stop" : 1598865272973,
+            "duration" : 789
           },
           "flaky" : false,
-          "parameters" : [ "{'用例ID': 'login_1', '模块': '登录', '接口名称': '登录参数为空', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{}', '预期结果': '无效数据。期待为字典类型', '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '', 'cookies': '', 'status_code': '400', '数据库验证': ''}" ]
+          "newFailed" : false,
+          "parameters" : [ "{'用例ID': 'login_1', '模块': '登录', '接口名称': '登录参数为空', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{}', '预期结果': '无效数据。期待为字典类型', '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '{}', 'cookies': '', 'status_code': '400', '数据库验证': ''}" ]
         }, {
           "name" : "login_2登录名为空",
-          "uid" : "1dc0f3b9dc9bcfc8",
+          "uid" : "b4baecc1c3739edc",
           "parentUid" : "e17b7a456cfa9e4cdb7a431513025e56",
           "status" : "passed",
           "time" : {
-            "start" : 1598541244131,
-            "stop" : 1598541244269,
-            "duration" : 138
+            "start" : 1598865272996,
+            "stop" : 1598865273864,
+            "duration" : 868
           },
           "flaky" : false,
-          "parameters" : [ "{'用例ID': 'login_2', '模块': '登录', '接口名称': '登录名为空', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\"username\": \"\", \"password\": \"12345678\"}', '预期结果': \"username': ['该字段不能为空。']\", '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '', 'cookies': '', 'status_code': '400', '数据库验证': ''}" ]
+          "newFailed" : false,
+          "parameters" : [ "{'用例ID': 'login_2', '模块': '登录', '接口名称': '登录名为空', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"username\": \"\", \"password\": \"12345678\"}', '预期结果': \"username': ['该字段不能为空。']\", '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '{}', 'cookies': '', 'status_code': '400', '数据库验证': ''}" ]
         }, {
           "name" : "login_3登录名或密码为空",
-          "uid" : "6d3cbf59d1451e0a",
+          "uid" : "71b06df23f70f3fa",
           "parentUid" : "e17b7a456cfa9e4cdb7a431513025e56",
           "status" : "passed",
           "time" : {
-            "start" : 1598541244285,
-            "stop" : 1598541244401,
-            "duration" : 116
+            "start" : 1598865273883,
+            "stop" : 1598865274701,
+            "duration" : 818
           },
           "flaky" : false,
-          "parameters" : [ "{'用例ID': 'login_3', '模块': '登录', '接口名称': '登录名或密码为空', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"\"}', '预期结果': \"password': ['该字段不能为空。']\", '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '', 'cookies': '', 'status_code': '400', '数据库验证': ''}" ]
+          "newFailed" : false,
+          "parameters" : [ "{'用例ID': 'login_3', '模块': '登录', '接口名称': '登录名或密码为空', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"\"}', '预期结果': \"password': ['该字段不能为空。']\", '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '{}', 'cookies': '', 'status_code': '400', '数据库验证': ''}" ]
         }, {
           "name" : "login_4登录成功",
-          "uid" : "d4c359a1188ae6b",
+          "uid" : "c68732f383b2f0c5",
           "parentUid" : "e17b7a456cfa9e4cdb7a431513025e56",
           "status" : "passed",
           "time" : {
-            "start" : 1598541244416,
-            "stop" : 1598541245315,
-            "duration" : 899
+            "start" : 1598865274736,
+            "stop" : 1598865276260,
+            "duration" : 1524
           },
           "flaky" : false,
-          "parameters" : [ "{'用例ID': 'login_4', '模块': '登录', '接口名称': '登录成功', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"12345678\"}', '预期结果': \"user_id': 1, 'username': 'python'\", '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '', 'cookies': '', 'status_code': '200', '数据库验证': ''}" ]
+          "newFailed" : false,
+          "parameters" : [ "{'用例ID': 'login_4', '模块': '登录', '接口名称': '登录成功', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"12345678\"}', '预期结果': \"user_id': 1, 'username': 'python'\", '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '{}', 'cookies': '', 'status_code': '200', '数据库验证': ''}" ]
         }, {
           "name" : "login_5登录用户名或密码错误",
-          "uid" : "b2505bd0d71cfe97",
+          "uid" : "f38001743e16e2b5",
           "parentUid" : "e17b7a456cfa9e4cdb7a431513025e56",
           "status" : "passed",
           "time" : {
-            "start" : 1598541245323,
-            "stop" : 1598541245800,
-            "duration" : 477
+            "start" : 1598865276286,
+            "stop" : 1598865277995,
+            "duration" : 1709
           },
           "flaky" : false,
-          "parameters" : [ "{'用例ID': 'login_5', '模块': '登录', '接口名称': '登录用户名或密码错误', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"test123\"}', '预期结果': '无法使用提供的认证信息登录', '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '', 'cookies': '', 'status_code': '400', '数据库验证': ''}" ]
+          "newFailed" : false,
+          "parameters" : [ "{'用例ID': 'login_5', '模块': '登录', '接口名称': '登录用户名或密码错误', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"test123\"}', '预期结果': '无法使用提供的认证信息登录', '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '{}', 'cookies': '', 'status_code': '400', '数据库验证': ''}" ]
+        }, {
+          "name" : "cart_1添加购物车成功",
+          "uid" : "7bfddb1dd83e4ce5",
+          "parentUid" : "e17b7a456cfa9e4cdb7a431513025e56",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598865278021,
+            "stop" : 1598865278988,
+            "duration" : 967
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'用例ID': 'cart_1', '模块': '购物车', '接口名称': '添加购物车成功', '请求URL': '/cart/', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"sku_id\": \"3\",\"count\": \"1\", \"selected\": \"true\"}', '预期结果': \"sku_id': 3, 'count': 1\", '实际结果': '', '备注': '', '是否运行': '', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': '201', '数据库验证': ''}" ]
         } ],
         "uid" : "e17b7a456cfa9e4cdb7a431513025e56"
       } ],

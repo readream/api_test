@@ -32,11 +32,9 @@ def get_token():
     # print(info['token'])
     # header中获取token
     token = info['token']
-    print(res.url)
-    print(type(str(res.status_code)))
     # logger=log.get_logger()
     # logger.debug("Create token:%s" % (token))
-    return res
+    return token
 #报告返回接口信息信息公共方法
 def show_return_msg(response):
     # 返回response返回信息
@@ -84,8 +82,8 @@ def send_mail(report_html_path="",content="",title="测试"):
         file=report_html_path)
     email.send_mail()
 if __name__ == '__main__':
-    # print(get_xls("testdata.xlsx", "美多商城接口测试"))
-    # print(get_token())
+    print(get_xls("testdata.xlsx", "美多商城接口测试"))
+    print(get_token())
     # show_return_msg(get_token())
     # print(project_path)
-    send_mail()
+

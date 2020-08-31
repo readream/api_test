@@ -13,7 +13,7 @@ if __name__ == '__main__':
     report_html_path = os.path.join(project_path, "report", "html")
     pytest.main(["-s"])
     common.allure_report(report_path, report_html_path)
-    common.send_mail()
+    # common.send_mail()
     # os.system("D:/python/Lib/site-packages/allure-2.10.0/bin/allure.bat "
     #           "generate "
     #           "D:/learn/api_test/api_test/interfaceTest/report/result "

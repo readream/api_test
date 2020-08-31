@@ -20,14 +20,15 @@ class TestLogin():
         self.case_id = data[data_key.case_id]
         self.case_name = data[data_key.case_name]
         self.method = data[data_key.method]
+        self.headers = data[data_key.headers]
+        self.headers = function.res_sub(self.headers,common.get_token())
+        self.headers = json.loads(self.headers)
         self.expect_result = data[data_key.expect_result]
         configHttp.set_url(self.url)
-        header = {"Content-Type": 'application/json'}
-        configHttp.set_headers(header)
+        configHttp.set_headers(self.headers)
         print(configHttp.set_data(self.parameter))
         # 请求对应封装接口
-        self.respon = configHttp.postWithJson()
-        print(self.respon.text)
+        self.respon = configHttp.request_api(self.method)
         # allure
         # sheet名称  feature 一级标签
         allure.dynamic.feature("接口测试")
@@ -39,7 +40,7 @@ class TestLogin():
         desc = "<font color='red'>请求URL: </font> {}<Br/>" \
                "<font color='red'>请求类型: </font>{}<Br/>" \
                "<font color='red'>期望结果: </font>{}<Br/>" \
-               "<font color='red'>实际结果: </font>{}".format(self.url, self.method, self.expect_result, self.respon)
+               "<font color='red'>实际结果: </font>{}".format(self.url, self.method, self.expect_result, self.respon.text)
         allure.dynamic.description(desc)
         assert self.status_code == str(self.respon.status_code)
         # 调用checkResult方法
@@ -56,5 +57,4 @@ class TestLogin():
 
 
 if __name__ == '__main__':
-    # pytest.main(["-s","testLogin.py"])
     pytest.main(['-s','testLogin.py'])
