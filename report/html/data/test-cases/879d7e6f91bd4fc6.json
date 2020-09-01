@@ -1,0 +1,179 @@
+{
+  "uid" : "879d7e6f91bd4fc6",
+  "name" : "login_3登录名或密码为空",
+  "fullName" : "testcase.testLogin.TestLogin#test_login",
+  "historyId" : "6762327cd28416678d9940f803da209e",
+  "time" : {
+    "start" : 1598926796579,
+    "stop" : 1598926797211,
+    "duration" : 632
+  },
+  "description" : "<font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>post<Br/><font color='red'>期望结果: </font>password': ['该字段不能为空。']<Br/><font color='red'>实际结果: </font>{\"password\":[\"该字段不能为空。\"]}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>post<Br/><font color='red'>期望结果: </font>password': ['该字段不能为空。']<Br/><font color='red'>实际结果: </font>{&quot;password&quot;:[&quot;该字段不能为空。&quot;]}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "接口测试"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "testLogin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "INNOVAT0084"
+  }, {
+    "name" : "thread",
+    "value" : "6092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.testLogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例ID': 'login_3', '模块': '登录', '接口名称': '登录名或密码为空', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"\"}', '预期结果': \"password': ['该字段不能为空。']\", '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '{}', 'cookies': '', 'status_code': '400', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bf3d1e6c2037b257",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598926352961,
+        "stop" : 1598926353795,
+        "duration" : 834
+      }
+    }, {
+      "uid" : "1aa2e16414fbcf52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598926030756,
+        "stop" : 1598926031461,
+        "duration" : 705
+      }
+    }, {
+      "uid" : "f2a99411ccaab223",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598866842689,
+        "stop" : 1598866843433,
+        "duration" : 744
+      }
+    }, {
+      "uid" : "e145fbb52e246a60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598865273883,
+        "stop" : 1598865274701,
+        "duration" : 818
+      }
+    }, {
+      "uid" : "427b17760d1a81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598541244285,
+        "stop" : 1598541244401,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "e37196643c811a46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598541216978,
+        "stop" : 1598541217148,
+        "duration" : 170
+      }
+    }, {
+      "uid" : "ef22540e39190aa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598540225983,
+        "stop" : 1598540226118,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "59efe868304dc953",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598458991857,
+        "stop" : 1598458991965,
+        "duration" : 108
+      }
+    }, {
+      "uid" : "2ada4bfac48fa95b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598458557678,
+        "stop" : 1598458557917,
+        "duration" : 239
+      }
+    }, {
+      "uid" : "7796688a761702bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598458411994,
+        "stop" : 1598458412133,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "172bed1eb69a7c30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598458349973,
+        "stop" : 1598458350127,
+        "duration" : 154
+      }
+    }, {
+      "uid" : "64672693028f1527",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598458299596,
+        "stop" : 1598458299765,
+        "duration" : 169
+      }
+    }, {
+      "uid" : "e32237bcfb388fe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598456861942,
+        "stop" : 1598456862043,
+        "duration" : 101
+      }
+    }, {
+      "uid" : "3c786a95ff63d20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598456510979,
+        "stop" : 1598456511078,
+        "duration" : 99
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "879d7e6f91bd4fc6.json",
+  "parameterValues" : [ "{'用例ID': 'login_3', '模块': '登录', '接口名称': '登录名或密码为空', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"\"}', '预期结果': \"password': ['该字段不能为空。']\", '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '{}', 'cookies': '', 'status_code': '400', '数据库验证': ''}" ]
+}

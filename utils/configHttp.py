@@ -32,7 +32,7 @@ class configHttp():
             self.state = 1
     def request_api(self, method, files=None):
         if method == 'get':
-            res = requests.get(self.url, headers=self.headers, parmas=self.params, timeout=float(timeout))
+            res = requests.get(self.url, headers=self.headers, data=self.data, timeout=float(timeout))
         elif method == 'post':
             if files:
                 res = requests.post(self.url, headers=self.headers, data=self.data, files=self.files,

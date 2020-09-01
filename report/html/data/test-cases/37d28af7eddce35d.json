@@ -1,0 +1,65 @@
+{
+  "uid" : "37d28af7eddce35d",
+  "name" : "login_5登录用户名或密码错误",
+  "fullName" : "testcase.testLogin.TestLogin#test_login",
+  "historyId" : "2d096d05c476326d0194e90d1bcb059b",
+  "time" : {
+    "start" : 1598541245323,
+    "stop" : 1598541245800,
+    "duration" : 477
+  },
+  "description" : "<font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>无法使用提供的认证信息登录<Br/><font color='red'>实际结果: </font><Response [400]>",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> /authorizations/<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>无法使用提供的认证信息登录<Br/><font color='red'>实际结果: </font>&lt;Response [400]&gt;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "接口测试"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "testLogin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "MS-QFLKDEPNXSGU"
+  }, {
+    "name" : "thread",
+    "value" : "1420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.testLogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例ID': 'login_5', '模块': '登录', '接口名称': '登录用户名或密码错误', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"test123\"}', '预期结果': '无法使用提供的认证信息登录', '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '', 'cookies': '', 'status_code': '400', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37d28af7eddce35d.json",
+  "parameterValues" : [ "{'用例ID': 'login_5', '模块': '登录', '接口名称': '登录用户名或密码错误', '请求URL': '/authorizations/', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\"username\": \"python\", \"password\": \"test123\"}', '预期结果': '无法使用提供的认证信息登录', '实际结果': '', '备注': '', '是否运行': 'n', 'headers': '', 'cookies': '', 'status_code': '400', '数据库验证': ''}" ]
+}

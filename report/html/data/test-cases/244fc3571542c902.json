@@ -1,0 +1,65 @@
+{
+  "uid" : "244fc3571542c902",
+  "name" : "cart_1添加购物车成功",
+  "fullName" : "testcase.testLogin.TestLogin#test_login",
+  "historyId" : "706ec7cc179ad9aeb82ff8bf10dea267",
+  "time" : {
+    "start" : 1598926357973,
+    "stop" : 1598926359068,
+    "duration" : 1095
+  },
+  "description" : "<font color='red'>请求URL: </font> /cart/<Br/><font color='red'>请求类型: </font>post<Br/><font color='red'>期望结果: </font>sku_id': 3, 'count': 1<Br/><font color='red'>实际结果: </font>{\"sku_id\":3,\"count\":1,\"selected\":true}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> /cart/<Br/><font color='red'>请求类型: </font>post<Br/><font color='red'>期望结果: </font>sku_id': 3, 'count': 1<Br/><font color='red'>实际结果: </font>{&quot;sku_id&quot;:3,&quot;count&quot;:1,&quot;selected&quot;:true}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "接口测试"
+  }, {
+    "name" : "story",
+    "value" : "购物车"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "testLogin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "INNOVAT0084"
+  }, {
+    "name" : "thread",
+    "value" : "8772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.testLogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例ID': 'cart_1', '模块': '购物车', '接口名称': '添加购物车成功', '请求URL': '/cart/', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"sku_id\": \"3\",\"count\": \"1\", \"selected\": \"true\"}', '预期结果': \"sku_id': 3, 'count': 1\", '实际结果': '', '备注': '', '是否运行': '', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': '201', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "244fc3571542c902.json",
+  "parameterValues" : [ "{'用例ID': 'cart_1', '模块': '购物车', '接口名称': '添加购物车成功', '请求URL': '/cart/', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"sku_id\": \"3\",\"count\": \"1\", \"selected\": \"true\"}', '预期结果': \"sku_id': 3, 'count': 1\", '实际结果': '', '备注': '', '是否运行': '', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': '201', '数据库验证': ''}" ]
+}

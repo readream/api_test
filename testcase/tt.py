@@ -1,10 +1,12 @@
 import requests
 import json
-data = {"username": "python", "password": "12345678"}
+data = {"page":"1",
+ "page_size": "10",
+ "ordering": "create_time"}
 # data = json.loads(data)
 print(data)
 headers =[]
 # headers = json.loads(headers)
 print(headers)
-res = requests.post("http://211.103.136.242:8064/authorizations/", headers=headers, data=data)
+res = requests.get("http://211.103.136.242:8064/categories/115/skus/", headers=headers, data=data)
 print(res.text)
